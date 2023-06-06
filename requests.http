@@ -14,3 +14,7 @@ Content-Type: application/json
 
 ### Get single message
 GET http://localhost:3000/messages/1502
+
+
+### Testing dependency injection b/w modules
+GET http://localhost:3000/computer
