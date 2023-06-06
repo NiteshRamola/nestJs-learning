@@ -1,3 +1,34 @@
+### Create new User
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "email": "hdd@d.ded",
+  "password": "4kfjkdjfkd"
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ### List all messages
 
 GET http://localhost:3000/messages
