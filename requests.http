@@ -13,9 +13,18 @@ POST http://localhost:3000/auth/signin
 content-type: application/json
 
 {
-  "email": "asdfd@asdf.com",
-  "password": "asdlfkadjsd"
+  "email": "asdf@asdf.com",
+  "password": "asdlfkajsd"
 }
+
+
+### Who am I
+GET  http://localhost:3000/auth/whoami
+
+
+### Sign Out
+GET http://localhost:3000/auth/signOut
+
 
 ### Find a particular user with a given ID
 GET http://localhost:3000/auth/3
