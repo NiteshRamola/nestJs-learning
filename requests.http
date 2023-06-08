@@ -7,8 +7,18 @@ content-type: application/json
   "password": "asdlfkajsd"
 }
 
+
+### Sign user
+POST http://localhost:3000/auth/signin
+content-type: application/json
+
+{
+  "email": "asdfd@asdf.com",
+  "password": "asdlfkadjsd"
+}
+
 ### Find a particular user with a given ID
-GET http://localhost:3000/auth/0
+GET http://localhost:3000/auth/3
 
 ### Find all users with a given email
 GET http://localhost:3000/auth?email=asdf@asdf.com
